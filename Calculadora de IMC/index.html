@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Calculadora de IMC</title>
+    </head>
+    <body>
+        <main class="tela-principal">
+            <form id="formulario">
+                <h1>Calcular seu IMC</h1>
+                <h3>Informe a altura e o peso que você deseja calcular</h3>
+            <form action="" method="post">
+                <div class="form-group">
+                    <label for="altura">Altura (ex: 1,70)</label>
+                    <input class="cx" type="number" id="altura" placeholder="Informe sua Altura" step="0.01" min="0.0" max="2.70" autofocus required>
+                </div>
+
+                <div class="form-group">
+                    <label for="peso">Peso (ex: 70,1)</label>
+                    <input class="cx" type="number" id="peso" placeholder="Informe seu peso" step="0.01" min="0.0" max="500.0" required>
+                </div>
+
+                <div class="form-group" id="calcular">
+                    <button type="submit" class="button" id="btnCalcular">Calcular</button>
+                    <button type="reset" class="button" id="btnLimpar">Limpar</button>
+                </div>
+                <div class="form-group">
+                    <label for="imc">Seu imc é: </label>
+                    <input class="cxIMC" id="resultadoImc" type="number" value="0.0" disabled>
+                    <span id='aviso'></span>
+                </div>
+                <span id='aviso'></span>
+            </form>
+            <div id="resultado">
+                <h2 id="id" class="pessoa">Resultado anteriores de IMC</h2>
+                <p id="altura" class="pessoa">Altura: </p>
+                <p id="peso"class="pessoa">Peso: </p>
+                <p id="imc" class="pessoa">IMC: </p>
+            </div>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>

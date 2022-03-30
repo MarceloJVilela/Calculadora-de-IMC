@@ -1,0 +1,51 @@
+* {
+    margin: 0 auto;
+    padding: 5px;
+    background-color: #cecece;
+    font-size: 25px;
+    font-family: 'Andale Mono, monospace';
+}
+
+.tela-principal {
+    border: 3px solid black;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.cx {
+    width:23%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.cxIMC {
+    width: 8%;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+.button {
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-left: 10px;
+    background-color:darkgreen;
+    color:white;
+    font-size: 17px;
+}
+
+#aviso {
+    font-weight: bold;
+}
+
+.alerta {
+    background: #f44336;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.pessoa {
+    padding: 0.625rem;
+    width: 30%;
+    margin-left: 0%;
+    background: black;
+    color: white;
+}
